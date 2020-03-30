@@ -1,0 +1,65 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-container-3, .flex-box-container-4, .flex-box-container-5, .flex-box-container-6 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
+    margin: 10px;
+}
+
+.flex-box-container-3 img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+#flex-box-rps-final-div {
+    display: hide;
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+#cardTable, #flex-box-blackjack-controls {
+    background-color: green;
+    color: #ffffff;
+}
+
+#cardTable div {
+    flex: 1;
+}
+
+#cardTable img {
+    width: 20%;
+    height: 50%;
+    padding: 10px;
+
+}
+
+#yourCards, #dealerCards  {
+    display: flex;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+table, th, td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
